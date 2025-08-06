@@ -2,6 +2,8 @@ import React from "react";
 import Iocanalysis from "./features/IOCANALYSIS";
 import MaliciousIOCDetection from "./features/MaliciousIOCDetection";
 import DarkWebIntelligence from "./features/DarkWebIntelligence";
+import ATTACKMapping from "./features/ATTACKMapping";
+import APTGroupIntelligence from "./features/APTGroupIntelligence";
 
 
 export default function App() {
@@ -25,6 +27,8 @@ export default function App() {
         <Iocanalysis />
         <MaliciousIOCDetection />
         <DarkWebIntelligence />
+        <ATTACKMapping />
+        <APTGroupIntelligence />
       </main>
     </div>
   );
