@@ -1,6 +1,7 @@
 import React from "react";
 import Iocanalysis from "./features/IOCANALYSIS";
 import MaliciousIOCDetection from "./features/MaliciousIOCDetection";
+import DarkWebIntelligence from "./features/DarkWebIntelligence";
 
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
       <main className="max-w-7xl mx-auto px-4 py-16 grid gap-10">
         <Iocanalysis />
         <MaliciousIOCDetection />
+        <DarkWebIntelligence />
       </main>
     </div>
   );
