@@ -1,9 +1,10 @@
 import React from "react";
-import Iocanalysis from "./features/IOCANALYSIS";
-import MaliciousIOCDetection from "./features/MaliciousIOCDetection";
-import DarkWebIntelligence from "./features/DarkWebIntelligence";
-import ATTACKMapping from "./features/ATTACKMapping";
-import APTGroupIntelligence from "./features/APTGroupIntelligence";
+import Iocanalysis from "./components/features/IOCANALYSIS";
+import MaliciousIOCDetection from "./components/features/MaliciousIOCDetection";
+import DarkWebIntelligence from "./components/features/DarkWebIntelligence";
+import ATTACKMapping from "./components/features/ATTACKMapping";
+import APTGroupIntelligence from "./components/features/APTGroupIntelligence";
+import PasswordBreachIntelligence from "./components/features/PasswordBreachIntelligence";
 
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
         <DarkWebIntelligence />
         <ATTACKMapping />
         <APTGroupIntelligence />
+        <PasswordBreachIntelligence />
       </main>
     </div>
   );
