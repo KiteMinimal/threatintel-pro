@@ -7,6 +7,7 @@ import APTGroupIntelligence from "./features/APTGroupIntelligence";
 import PasswordBreachIntelligence from "./features/PasswordBreachIntelligence";
 import NeonSeparator from "./features/NeonSeparator";
 import SwingAnimationStyle from "./features/SwingAnimationStyle";
+import NeonGreenFooter from "./features/NeonGreenFooter";
 
 export default function FeatureHighlights() {
   return (
@@ -27,6 +28,8 @@ export default function FeatureHighlights() {
         <APTGroupIntelligence />
         <PasswordBreachIntelligence />
         <SwingAnimationStyle />
+        <NeonSeparator />
+        <NeonGreenFooter />
       </div>
     </section>
   );
