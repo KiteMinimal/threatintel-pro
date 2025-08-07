@@ -9,7 +9,7 @@ export default function App() {
   return (
       <div className="bg-black font-montserrat min-h-screen">
         <Navbar />
-        <main className="pt-16">
+        <main className="">
           <RouterComponent />
         </main>
       </div>

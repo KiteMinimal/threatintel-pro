@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ["Montserrat", "ui-sans-serif", "system-ui"],
+        myfont: ["MyFont", "sans-serif"],
       },
     },
   },
