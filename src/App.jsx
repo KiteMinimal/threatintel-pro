@@ -9,7 +9,7 @@ export default function App() {
   return (
       <div className="bg-black font-myfont min-h-screen overflow-auto">
         <Navbar />
-        <main className="mt-16">
+        <main className="mt-24">
           <RouterComponent />
         </main>
       </div>

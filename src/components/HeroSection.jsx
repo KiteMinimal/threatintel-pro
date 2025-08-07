@@ -8,7 +8,7 @@ export default function HeroSection() {
 
       <section
         id="hero"
-        className=" min-h-screen flex flex-col justify-center items-center text-center py-20
+        className=" min-h-screen flex flex-col justify-center items-center text-center 
                  bg-[#000503] rounded-b-3xl shadow-xl"
       > 
       {/* pt-96 */}
