@@ -8,10 +8,10 @@ export default function Navbar() {
   // Navbar links excluding Features (since features are on home page)
   const navLinks = [
     { label: "Home", to: "/" },
-    { label: "Problem Statement", to: "/problem-statement" },
-    { label: "Solution Overview", to: "/solution-overview" },
-    { label: "Industry Solutions", to: "/industry-solutions" },
-    { label: "Social Proof", to: "/social-proof" },
+    { label: "Problem", to: "/problem-statement" },
+    { label: "Overview", to: "/solution-overview" },
+    { label: "Industry", to: "/industry-solutions" },
+    { label: "Social", to: "/social-proof" },
     { label: "Pricing & Plans", to: "/pricing-plans" },
     { label: "Resources", to: "/resources" },
   ];
@@ -19,14 +19,14 @@ export default function Navbar() {
   return (
     <nav className="bg-[#101822] fixed w-full shadow z-50 p-4">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center text-sm font-sans h-16">
           {/* Logo / Brand */}
           <Link
             to="/"
             className="text-[#00F078] font-extrabold text-2xl tracking-tight hover:opacity-90 transition"
             onClick={() => setIsOpen(false)}
           >
-            ThreatIntel Pro
+            <img src="/THREATINTEL PRO.png" alt="website-logo"  className="w-72 h-16 flex m-2 justify-start"/>
           </Link>
 
           {/* Desktop Links */}
