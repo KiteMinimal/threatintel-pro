@@ -63,39 +63,37 @@ export default function HeroSection() {
           </button>
         </div>
 
-        {/* Optional: Hero Image or Video Placeholder */}
-        {/* Replace with actual image/video as needed */}
-        <div className="mt-16 w-full max-w-5xl">
+       
+        <div className="mt-16 w-full flex justify-center max-w-5xl">
           <img
-            src="/hero-mockup.png" // Update this path to your actual hero image/video poster
+            src="/hero-mockup.png" 
             alt="ThreatIntel Pro platform interface"
-            className="w-full rounded-xl shadow-2xl border border-[#00F078]/50"
+            className="w-[70%] object-cover rounded-xl shadow-2xl"
           />
         </div>
 
-        {/* Optional: Trust Indicators below Hero */}
-        {/* Example logos / badges placeholder */}
+        
         <div className="flex flex-wrap justify-center items-center mt-12 gap-10 max-w-4xl mx-auto">
           {/* Replace these with actual logos or certifications */}
           <img
-            src="/logo1.svg"
+            src="/logo1.png"
             alt="Client 1"
-            className="h-12 grayscale opacity-70 hover:opacity-100 transition"
+            className="w-36 h-36 p-3 bg-white object-contain shadow-lg"
           />
           <img
-            src="/logo2.svg"
+            src="/logo2.png"
             alt="Client 2"
-            className="h-12 grayscale opacity-70 hover:opacity-100 transition"
+            className="w-36 h-36 p-3 bg-white object-contain shadow-lg"
           />
           <img
-            src="/logo3.svg"
+            src="/logo3.png"
             alt="Certification 1"
-            className="h-12 grayscale opacity-70 hover:opacity-100 transition"
+            className="w-36 h-36 p-3 bg-white object-contain shadow-lg"
           />
           <img
-            src="/logo4.svg"
+            src="/logo4.png"
             alt="Certification 2"
-            className="h-12 grayscale opacity-70 hover:opacity-100 transition"
+            className="w-36 h-36 p-3 bg-white object-contain shadow-lg"
           />
         </div>
       </section>
