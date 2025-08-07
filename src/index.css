@@ -9,7 +9,10 @@
   font-style: normal;
 }
 
-html, body {
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   background-color: #000;
   min-height: 100%;
   width: 100%;

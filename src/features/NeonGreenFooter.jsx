@@ -2,51 +2,65 @@ import React from "react";
 
 export default function NeonGreenFooter() {
   return (
-    <footer className="bg-[#9b9b9da9] text-black py-12 px-8 select-none">
+    <footer className=" text-white border shadow-[0_0_25px_#00F078aa] py-12 px-8 select-none">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
-
         {/* Left section: About or tagline */}
         <div className="text-center md:text-left max-w-md">
           <h2 className="text-3xl font-bold mb-3 tracking-wide drop-shadow-lg text-[#5b9b7b]">
             Stay Cyber Resilient
           </h2>
           <p className="text-sm tracking-wide opacity-90">
-            Empower your security journey with actionable insights and advanced training.
+            Empower your security journey with actionable insights and advanced
+            training.
           </p>
         </div>
 
         {/* Center section: Navigation Links */}
         <nav className="flex flex-wrap justify-center gap-8">
-          <a
-            href="#"
-            className="text-lg font-semibold hover:text-white transition-colors"
-          >
-            Home
-          </a>
-          <a
-            href="#"
-            className="text-lg font-semibold hover:text-white transition-colors"
-          >
-            Features
-          </a>
-          <a
-            href="#"
-            className="text-lg font-semibold hover:text-white transition-colors"
-          >
-            Training Modules
-          </a>
-          <a
-            href="#"
-            className="text-lg font-semibold hover:text-white transition-colors"
-          >
-            Insights
-          </a>
-          <a
-            href="#"
-            className="text-lg font-semibold hover:text-white transition-colors"
-          >
-            Contact
-          </a>
+          <ul className="flex flex-col font-mono">
+            <li>
+              <a
+                href="#"
+                className="text-lg font-semibold hover:text-[#00ca65] transition-shadow duration-300"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="text-lg font-semibold hover:text-[#00ca65] transition-shadow duration-300"
+              >
+                Features
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="text-lg font-semibold hover:text-[#00ca65] transition-shadow duration-300"
+              >
+                Training Modules
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a
+                href="#"
+                className="text-lg font-semibold hover:text-[#00ca65] transition-shadow duration-300"
+              >
+                Insights
+              </a>
+            </li>
+            <li>
+              {" "}
+              <a
+                href="#"
+                className="text-lg font-semibold hover:text-[#00ca65] transition-shadow duration-300"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
         </nav>
 
         {/* Right section: Contact & Social */}
@@ -54,7 +68,7 @@ export default function NeonGreenFooter() {
           <div className="text-sm opacity-90">Contact us:</div>
           <a
             href="mailto:support@cyberresilience.com"
-            className="underline hover:text-white transition-colors"
+            className="underline hover:text-[#00ca65] transition-colors"
           >
             support@cyberresilience.com
           </a>

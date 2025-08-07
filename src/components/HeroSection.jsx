@@ -9,8 +9,9 @@ export default function HeroSection() {
       <section
         id="hero"
         className=" min-h-screen flex flex-col justify-center items-center text-center py-20
-                 bg-[#000503] rounded-b-3xl shadow-xl pt-[96px]"
-      >
+                 bg-[#000503] rounded-b-3xl shadow-xl"
+      > 
+      {/* pt-96 */}
         <div className="relative w-full max-h-[380px] mb-16">
           <img
             src="/cyber-security-concept-digital-art.jpg"
@@ -50,7 +51,7 @@ export default function HeroSection() {
         </p>
 
         {/* CTA Button */}
-        <div className="flex items-center max-w-md mx-auto bg-[#305c45] rounded-full border-[3px] border-[#00ca65] px-2 py-1 mb-8 shadow-md shadow-[#00ca65]">
+        <div className="flex items-center max-w-md mx-auto bg-[#305c45] rounded-full border-[3px] border-[#00ca65] px-2 py-1 mb-8 shadow-[0_0_25px_#00F078aa]">
           <input
             type="email"
             name="email"
