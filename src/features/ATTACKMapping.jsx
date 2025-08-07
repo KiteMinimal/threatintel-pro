@@ -1,4 +1,3 @@
-// src/features/ATTACKMapping.jsx
 import React from "react";
 
 export default function ATTACKMapping() {
@@ -21,8 +20,14 @@ export default function ATTACKMapping() {
         </h2>
         <p className="text-gray-300 text-lg max-w-3xl font-medium leading-relaxed">
           Understand how attackers operate. Our{" "}
-          <span className="text-[#00F078] font-semibold">MITRE ATT&amp;CK integration</span> provides standardized threat classification and helps identify{" "}
-          <span className="text-[#00F078] font-semibold">gaps in your security posture</span>.
+          <span className="text-[#00F078] font-semibold">
+            MITRE ATT&amp;CK integration
+          </span>{" "}
+          provides standardized threat classification and helps identify{" "}
+          <span className="text-[#00F078] font-semibold">
+            gaps in your security posture
+          </span>
+          .
         </p>
 
         {/* Accent Icon with scaling glow animation */}

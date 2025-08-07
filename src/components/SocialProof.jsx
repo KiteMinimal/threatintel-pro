@@ -1,4 +1,3 @@
-// src/components/SocialProof.jsx
 import React from "react";
 
 // Example testimonial and recognition data – you can adjust or expand this!
@@ -6,15 +5,17 @@ const testimonials = [
   {
     name: "Alex Rivera",
     title: "CISO, TechStart Ltd.",
-    quote: "ThreatIntel Pro cut our incident response time by 60% and gave us the proactive visibility we needed to stay ahead of advanced cyber threats.",
-    avatar: "/avatar1.png" // Replace with real avatar or remove
+    quote:
+      "ThreatIntel Pro cut our incident response time by 60% and gave us the proactive visibility we needed to stay ahead of advanced cyber threats.",
+    avatar: "/avatar1.png", // Replace with real avatar or remove
   },
   {
     name: "Priya Mehra",
     title: "Head of Security, CloudCore",
-    quote: "The platform’s dark web monitoring uncovered exposed credentials within hours, preventing a major account compromise.",
-    avatar: "/avatar2.png"
-  }
+    quote:
+      "The platform’s dark web monitoring uncovered exposed credentials within hours, preventing a major account compromise.",
+    avatar: "/avatar2.png",
+  },
 ];
 
 const stats = [
@@ -26,14 +27,14 @@ const stats = [
 const recognitions = [
   { img: "/award1.svg", label: "Cybersecurity Excellence Award" },
   { img: "/award2.svg", label: "Top 50 InfoSec Tools" },
-  { img: "/commun-recognition.svg", label: "Security Community Pick" }
+  { img: "/commun-recognition.svg", label: "Security Community Pick" },
 ];
 
 export default function SocialProof() {
   return (
     <section
       id="social-proof"
-      className="py-20 px-6 max-w-6xl mx-auto bg-[#121721] rounded-3xl shadow-lg mt-16"
+      className="py-20 px-6 max-w-6xl mx-auto  rounded-3xl shadow-lg mt-16"
     >
       <h2 className="text-4xl font-extrabold text-[#00F078] mb-12 text-center">
         Trusted by Security Leaders Worldwide
@@ -47,7 +48,11 @@ export default function SocialProof() {
             className="bg-[#161B22] rounded-2xl shadow p-8 border border-[#232b36] flex-1 max-w-lg mx-auto flex flex-col"
           >
             <div className="flex items-center gap-4 mb-4">
-              <img src={avatar} alt={name} className="w-12 h-12 rounded-full bg-[#232b36]" />
+              <img
+                src={avatar}
+                alt={name}
+                className="w-12 h-12 rounded-full bg-[#232b36]"
+              />
               <div>
                 <div className="text-white font-bold">{name}</div>
                 <div className="text-gray-400 text-sm">{title}</div>

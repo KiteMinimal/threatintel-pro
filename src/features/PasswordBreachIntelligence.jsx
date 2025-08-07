@@ -23,9 +23,29 @@ export default function PasswordBreachIntelligence() {
               viewBox="0 0 44 44"
               className="w-7 h-7 sm:w-9 sm:h-9 text-[#111]"
             >
-              <circle cx="22" cy="22" r="20" className="stroke-[#111] stroke-2" fill="none" />
-              <rect x="14" y="20" width="16" height="10" rx="3" className="stroke-[#111] stroke-2" fill="none" />
-              <circle cx="22" cy="25" r="2" className="stroke-[#111] stroke-2" fill="none" />
+              <circle
+                cx="22"
+                cy="22"
+                r="20"
+                className="stroke-[#111] stroke-2"
+                fill="none"
+              />
+              <rect
+                x="14"
+                y="20"
+                width="16"
+                height="10"
+                rx="3"
+                className="stroke-[#111] stroke-2"
+                fill="none"
+              />
+              <circle
+                cx="22"
+                cy="25"
+                r="2"
+                className="stroke-[#111] stroke-2"
+                fill="none"
+              />
             </svg>
           </div>
         </div>
@@ -34,10 +54,17 @@ export default function PasswordBreachIntelligence() {
           Password Breach Intelligence
         </h2>
         <p className="text-gray-200 text-base sm:text-lg md:text-xl font-light mb-4 drop-shadow leading-relaxed">
-          <span className="text-[#00F078]">Protect your organization's digital identity.</span>
+          <span className="text-[#00F078]">
+            Protect your organization's digital identity.
+          </span>
           <br />
-          Monitor for <span className="px-1 rounded bg-[#00F07822] text-white">exposed credentials</span> across the surface, deep, and dark web, and take
-          action <span className="font-semibold text-[#00F078]">before</span> attackers compromise your critical accounts.
+          Monitor for{" "}
+          <span className="px-1 rounded bg-[#00F07822] text-white">
+            exposed credentials
+          </span>{" "}
+          across the surface, deep, and dark web, and take action{" "}
+          <span className="font-semibold text-[#00F078]">before</span> attackers
+          compromise your critical accounts.
         </p>
         <div className="flex flex-wrap gap-2 sm:gap-3 mt-4 sm:mt-6">
           <span className="bg-[#00F07830] text-[#00F078] px-2 py-1 rounded-full font-light text-xs sm:text-sm shadow">

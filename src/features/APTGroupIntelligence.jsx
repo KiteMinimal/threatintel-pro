@@ -8,7 +8,6 @@ export default function APTGroupIntelligence() {
         src="/bgImage.webp"
         alt=""
         className="absolute inset-0 w-full h-full object-cover z-0 opacity-25"
-        // No opacity change—normal as requested
         draggable={false}
       />
 

@@ -1,11 +1,10 @@
-// src/components/Navbar.jsx
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Navbar links excluding Features (since features are on home page)
+  // Navbar links excluding Features
   const navLinks = [
     { label: "Home", to: "/" },
     { label: "Problem", to: "/problem-statement" },
@@ -26,7 +25,11 @@ export default function Navbar() {
             className="text-[#00F078] font-extrabold text-2xl tracking-tight hover:opacity-90 transition"
             onClick={() => setIsOpen(false)}
           >
-            <img src="/THREATINTEL PRO.png" alt="website-logo"  className="w-72 h-16 flex m-2 justify-start"/>
+            <img
+              src="/THREATINTEL PRO.png"
+              alt="website-logo"
+              className="w-72 h-16 flex m-2 justify-start"
+            />
           </Link>
 
           {/* Desktop Links */}
@@ -37,7 +40,9 @@ export default function Navbar() {
                 to={to}
                 className={({ isActive }) =>
                   `font-semibold transition-colors duration-300 ${
-                    isActive ? "text-[#00F078]" : "text-gray-300 hover:text-[#00F078]"
+                    isActive
+                      ? "text-[#00F078]"
+                      : "text-gray-300 hover:text-[#00F078]"
                   }`
                 }
                 onClick={() => setIsOpen(false)}
@@ -103,7 +108,9 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
                 className={({ isActive }) =>
                   `block px-3 py-2 rounded-md text-base font-semibold ${
-                    isActive ? "text-[#00F078]" : "text-gray-300 hover:text-[#00F078]"
+                    isActive
+                      ? "text-[#00F078]"
+                      : "text-gray-300 hover:text-[#00F078]"
                   }`
                 }
               >

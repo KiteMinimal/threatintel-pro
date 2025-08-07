@@ -1,4 +1,3 @@
-// src/components/ResourcesSection.jsx
 import React from "react";
 
 const resources = [
@@ -87,14 +86,15 @@ export default function ResourcesSection() {
   return (
     <section
       id="resources"
-      className="py-20 px-6 max-w-6xl mx-auto bg-[#121721] rounded-3xl shadow-lg mt-16"
+      className="py-20 px-6 max-w-6xl mx-auto  rounded-3xl shadow-lg mt-16"
     >
       <h2 className="text-4xl font-extrabold text-[#00F078] mb-12 text-center">
         Resources
       </h2>
 
       <p className="text-gray-300 max-w-3xl mx-auto text-center mb-14 text-lg">
-        Access the latest guides, best practices, and community knowledge to enhance your threat intelligence capabilities.
+        Access the latest guides, best practices, and community knowledge to
+        enhance your threat intelligence capabilities.
       </p>
 
       <div className="grid gap-12 md:grid-cols-3">

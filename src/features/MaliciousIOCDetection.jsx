@@ -1,4 +1,3 @@
-// src/features/MaliciousIOCDetection.jsx
 import React from "react";
 
 export default function MaliciousIOCDetection() {

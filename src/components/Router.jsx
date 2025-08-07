@@ -1,4 +1,3 @@
-// src/components/Router.jsx
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import HeroSection from "./HeroSection";
@@ -9,8 +8,6 @@ import IndustrySolutions from "./IndustrySolutions";
 import SocialProof from "./SocialProof";
 import PricingPlans from "./PricingPlans";
 import ResourcesSection from "./ResourcesSection";
-
-
 
 // Combine Hero and FeatureHighlights into a HomePage
 function HomePage() {
@@ -32,7 +29,7 @@ export default function RouterComponent() {
       <Route path="/social-proof" element={<SocialProof />} />
       <Route path="/pricing-plans" element={<PricingPlans />} />
       <Route path="/resources" element={<ResourcesSection />} />
-      
+
       {/* Optional: catch-all 404 route */}
       {/* <Route path="*" element={<NotFound />} /> */}
     </Routes>

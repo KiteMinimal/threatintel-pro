@@ -1,17 +1,13 @@
-// src/components/HeroSection.jsx
 import React from "react";
 
 export default function HeroSection() {
   return (
     <>
-      {/* Image before Hero Section */}
-
       <section
         id="hero"
         className=" min-h-screen flex flex-col justify-center items-center text-center 
                  bg-[#000503] rounded-b-3xl shadow-xl"
-      > 
-      {/* pt-96 */}
+      >
         <div className="relative w-full max-h-[380px] mb-16">
           <img
             src="/cyber-security-concept-digital-art.jpg"
@@ -63,16 +59,14 @@ export default function HeroSection() {
           </button>
         </div>
 
-       
         <div className="mt-16 w-full flex justify-center max-w-5xl">
           <img
-            src="/hero-mockup.png" 
+            src="/hero-mockup.png"
             alt="ThreatIntel Pro platform interface"
             className="w-[70%] object-cover rounded-xl shadow-2xl"
           />
         </div>
 
-        
         <div className="flex flex-wrap justify-center items-center mt-12 gap-10 max-w-4xl mx-auto">
           {/* Replace these with actual logos or certifications */}
           <img

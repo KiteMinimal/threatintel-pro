@@ -1,4 +1,3 @@
-
 import React from "react";
 
 export default function DarkWebIntelligence() {
@@ -10,9 +9,20 @@ export default function DarkWebIntelligence() {
           Dark Web <span className="text-[#00F078]">Intelligence</span>
         </h2>
         <p className="text-gray-300 font-medium text-lg max-w-2xl animate-fade-slide-up animation-delay-100">
-          See what adversaries are planning <span className="text-[#00F078] font-semibold">before they strike</span>. Our 
-          dark web intelligence provides <span className="text-[#00F078] font-semibold">early warning of threats</span>, 
-          <span className="text-[#00F078] font-semibold"> compromised credentials</span>, and emerging attack campaigns.
+          See what adversaries are planning{" "}
+          <span className="text-[#00F078] font-semibold">
+            before they strike
+          </span>
+          . Our dark web intelligence provides{" "}
+          <span className="text-[#00F078] font-semibold">
+            early warning of threats
+          </span>
+          ,
+          <span className="text-[#00F078] font-semibold">
+            {" "}
+            compromised credentials
+          </span>
+          , and emerging attack campaigns.
         </p>
         {/* Accent Icon with Glow and pulse */}
         <div className="w-16 h-16 rounded-full bg-[#00F078] flex items-center justify-center text-4xl shadow-2xl drop-shadow-[0_0_32px_#00F07880] animate-pulse-slow">
@@ -22,10 +32,17 @@ export default function DarkWebIntelligence() {
             viewBox="0 0 44 44"
             className="w-10 h-10 text-[#111]"
           >
-            <circle cx="22" cy="22" r="20" className="stroke-[#111] stroke-2" fill="none" />
-            <path 
-              d="M22 30c-4-3-8-7-8-12 0-4 4-6 8-6s8 2 8 6c0 5-4 9-8 12z" 
-              className="stroke-[#111] stroke-2" fill="none" 
+            <circle
+              cx="22"
+              cy="22"
+              r="20"
+              className="stroke-[#111] stroke-2"
+              fill="none"
+            />
+            <path
+              d="M22 30c-4-3-8-7-8-12 0-4 4-6 8-6s8 2 8 6c0 5-4 9-8 12z"
+              className="stroke-[#111] stroke-2"
+              fill="none"
             />
           </svg>
         </div>
@@ -33,7 +50,11 @@ export default function DarkWebIntelligence() {
 
       {/* Image Section on the right with hover scale */}
       <div className="flex-shrink-0 w-full md:w-[480px] md:h-[320px] rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105">
-        <img src="/darkWeb.png" alt="DarkWeb" className="w-full h-full object-cover rounded-lg" />
+        <img
+          src="/darkWeb.png"
+          alt="DarkWeb"
+          className="w-full h-full object-cover rounded-lg"
+        />
       </div>
 
       {/* Neon vertical accent bar */}
