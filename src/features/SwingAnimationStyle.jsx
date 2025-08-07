@@ -55,22 +55,23 @@ export default function NeonGreenUI() {
           </svg>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-thin mb-4 max-w-[600px] leading-tight font-mono px-2">
-          Fast Track your Cyber Resilience Journey through Actionable Insights and Cyber Realm Training Modules
-        </h1>
+        <h1 className="text-xl sm:text-2xl md:text-4xl font-thin mb-4 max-w-[600px] leading-tight font-mono px-2">
+  Fast Track your Cyber Resilience Journey through Actionable Insights and Cyber Realm Training Modules
+</h1>
 
-        <div className="flex flex-wrap justify-center items-center gap-3 bg-gray-200 rounded-full px-4 py-2 text-xs sm:text-sm shadow-inner mx-auto max-w-[600px] font-serif">
-          <span>★ Advance Phishing Simulation</span>
-          <span>★ Intuitive training modules</span>
-          <span>★ Unmatched Insights</span>
-        </div>
+<div className="flex flex-wrap justify-center items-center gap-3 bg-gray-200 rounded-full px-4 py-2 mx-auto max-w-[600px] font-serif text-xs sm:text-sm shadow-inner">
+  <span>★ Advance Phishing Simulation</span>
+  <span>★ Intuitive training modules</span>
+  <span>★ Unmatched Insights</span>
+</div>
 
-        <button
-          className="mt-8 px-6 sm:px-8 py-3 bg-gray-200 rounded-full font-semibold text-base sm:text-lg shadow-md transition-transform duration-200 hover:scale-105 hover:bg-green-200 hover:shadow-lg"
-          type="button"
-        >
-          Get a demo &rarr;
-        </button>
+<button
+  className="mt-8 px-6 sm:px-8 py-3 bg-gray-200 rounded-full font-semibold shadow-md transition-transform duration-200 hover:scale-105 hover:bg-green-200 hover:shadow-lg text-sm sm:text-base md:text-lg"
+  type="button"
+>
+  Get a demo &rarr;
+</button>
+
       </div>
     </>
   );
