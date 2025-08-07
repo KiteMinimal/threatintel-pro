@@ -5,6 +5,7 @@ import DarkWebIntelligence from "./features/DarkWebIntelligence";
 import ATTACKMapping from "./features/ATTACKMapping";
 import APTGroupIntelligence from "./features/APTGroupIntelligence";
 import PasswordBreachIntelligence from "./features/PasswordBreachIntelligence";
+import NeonSeparator from "./features/NeonSeparator";
 
 
 export default function FeatureHighlights() {
@@ -14,9 +15,14 @@ export default function FeatureHighlights() {
         Feature Highlights
       </h2>
       <div className="space-y-16">
+        <NeonSeparator />
+
         <IOCANALYSIS />
+        <NeonSeparator />
         <MaliciousIOCDetection />
+        <NeonSeparator />
         <DarkWebIntelligence />
+        <NeonSeparator />
         <ATTACKMapping />
         <APTGroupIntelligence />
         <PasswordBreachIntelligence />
