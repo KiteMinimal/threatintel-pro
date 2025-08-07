@@ -7,7 +7,7 @@ import RouterComponent from "./components/Router";
 
 export default function App() {
   return (
-      <div className="bg-black font-myfont min-h-screen overflow-auto">
+      <div className="bg-black font-myfont min-h-screen overflow-y-auto">
         <Navbar />
         <main className="mt-24">
           <RouterComponent />

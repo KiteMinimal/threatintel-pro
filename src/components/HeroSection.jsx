@@ -32,8 +32,7 @@ export default function HeroSection() {
           Stay Ahead of
           <br />
           <span className=" text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
-            Cyber Threats with {/* <br /> */}
-            ThreatIntel Pro
+            Cyber Threats with ThreatIntel Pro
           </span>
         </h1>
 
